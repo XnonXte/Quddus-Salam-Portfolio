@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
@@ -14,10 +14,10 @@ const Socials = () => {
           </h2>
           <p>Let's connect through Twitter or Linkedin!</p>
         </div>
-        <Row className="mt-4 text-center">
-          <Col md>
-            {/* Twitter */}
-            <Card className="bg-light">
+        <Row className="gap-2 text-center">
+          <Col>
+            <Card className="bg-light" style={{ width: "224px" }}>
+              {/* Twitter */}
               <Card.Body>
                 <div className="h1 mb-3">
                   <i className="bi bi-twitter-x"></i>
@@ -29,15 +29,14 @@ const Socials = () => {
                   target="_blank"
                   href="https://twitter.com/XnonXte"
                 >
-                  Visit Page
+                  Visit Twitter
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-
-          <Col md>
-            {/* Instagram */}
-            <Card className="bg-light">
+          <Col>
+            <Card className="bg-light" style={{ width: "224px" }}>
+              {/* Instagram */}
               <Card.Body>
                 <div className="h1 mb-3">
                   <i className="bi bi-instagram"></i>
@@ -49,15 +48,14 @@ const Socials = () => {
                   target="_blank"
                   href="https://www.instagram.com/xnonxte/"
                 >
-                  Visit Page
+                  Visit Instagram
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-
-          <Col md>
-            {/* Facebook */}
-            <Card className="bg-light">
+          <Col>
+            <Card className="bg-light" style={{ width: "224px" }}>
+              {/* Facebook */}
               <Card.Body>
                 <div className="h1 mb-3">
                   <i className="bi bi-facebook"></i>
@@ -69,15 +67,14 @@ const Socials = () => {
                   target="_blank"
                   href="https://facebook.com/quddussalam2005"
                 >
-                  Visit Page
+                  Visit Facebook
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-
-          <Col md>
-            {/* Youtube */}
-            <Card className="bg-light">
+          <Col>
+            <Card className="bg-light" style={{ width: "224px" }}>
+              {/* Youtube */}
               <Card.Body>
                 <div className="h1 mb-3">
                   <i className="bi bi-youtube"></i>
@@ -89,15 +86,14 @@ const Socials = () => {
                   target="_blank"
                   href="https://www.youtube.com/@xnonxte"
                 >
-                  Visit Page
+                  Visit YouTube
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-
-          <Col md>
-            {/* Linkedin */}
-            <Card className="bg-light">
+          <Col>
+            <Card className="bg-light" style={{ width: "224px" }}>
+              {/* Linkedin */}
               <Card.Body>
                 <div className="h1 mb-3">
                   <i className="bi bi-linkedin"></i>
@@ -109,7 +105,7 @@ const Socials = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/quddus-salam/"
                 >
-                  Visit Page
+                  Visit Linkedin
                 </Button>
               </Card.Body>
             </Card>

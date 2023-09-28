@@ -47,6 +47,7 @@ const EmailMe = ({ serviceId, templateId }: EmailMeProps) => {
         <h2>
           Email Me <span className="text-primary">/&gt;</span>
         </h2>
+        <span>Send me an email!</span>
         <Form
           className="mt-4"
           onSubmit={(e) => {

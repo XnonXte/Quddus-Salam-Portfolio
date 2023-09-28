@@ -16,6 +16,9 @@ const Projects = () => {
             <span className="text-primary">/&gt;</span>
           </a>
         </h2>
+        <p className="text-center">
+          These are projects that I am proud to present.
+        </p>
 
         <ListGroup
           variant="flush"
@@ -30,9 +33,22 @@ const Projects = () => {
             {/* PortalGuessr */}
             <div className="ms-2 me-auto">
               <div className="fw-bold">PortalGuessr</div>
-              Discord bot on guessing Portal chambers.
+              <span className="d-none d-sm-block">
+                Discord bot on guessing Portal chambers.
+              </span>
             </div>
+
+            <a
+              className="d-sm-none d-block"
+              target="_blank"
+              href="https://github.com/XnonXte/PortalGuessr"
+              style={{ alignSelf: "center" }}
+            >
+              Visit
+            </a>
+
             <Button
+              className="d-sm-block d-none"
               variant="primary"
               as="a"
               target="_blank"
@@ -50,10 +66,22 @@ const Projects = () => {
             {/* XnonBot */}
             <div className="ms-2 me-auto">
               <div className="fw-bold">XnonBot</div>
-              Multi-purpose Discord bot to make your server life a lot fun and
-              easier!
+              <span className="d-none d-sm-block">
+                Multi-purpose Discord bot to make your server life better!
+              </span>
             </div>
+
+            <a
+              className="d-sm-none d-block"
+              target="_blank"
+              href="https://github.com/XnonXte/XnonBot-Rewritten"
+              style={{ alignSelf: "center" }}
+            >
+              Visit
+            </a>
+
             <Button
+              className="d-sm-block d-none"
               variant="primary"
               as="a"
               target="_blank"
@@ -70,9 +98,24 @@ const Projects = () => {
             {/* Nes UI */}
             <div className="ms-2 me-auto">
               <div className="fw-bold">NES-UI</div>
-              NES styled CSS framework inspired by Bootstrap.
+              <span className="d-none d-sm-block">
+                <span className="d-none d-sm-block">
+                  NES styled CSS framework inspired by Bootstrap.
+                </span>
+              </span>
             </div>
+
+            <a
+              className="d-sm-none d-block"
+              target="_blank"
+              href="https://github.com/XnonXte/NES-UI"
+              style={{ alignSelf: "center" }}
+            >
+              Visit
+            </a>
+
             <Button
+              className="d-sm-block d-none"
               variant="primary"
               as="a"
               target="_blank"
@@ -89,9 +132,22 @@ const Projects = () => {
             {/* TaskMaster */}
             <div className="ms-2 me-auto">
               <div className="fw-bold">TaskMaster</div>
-              Todo app created with React and Bootstrap
+              <span className="d-none d-sm-block">
+                Todo app created with React and Bootstrap
+              </span>
             </div>
+
+            <a
+              className="d-sm-none d-block"
+              target="_blank"
+              href="https://github.com/XnonXte/TaskMaster"
+              style={{ alignSelf: "center" }}
+            >
+              Visit
+            </a>
+
             <Button
+              className="d-sm-block d-none"
               variant="primary"
               as="a"
               target="_blank"
@@ -108,10 +164,23 @@ const Projects = () => {
             {/* Math mental */}
             <div className="ms-2 me-auto">
               <div className="fw-bold">Math Mental</div>
-              Game for testing your math skill, created using React and pure
-              CSS.
+              <span className="d-none d-sm-block">
+                Game for testing your math skill, created using React and pure
+                CSS.
+              </span>
             </div>
+
+            <a
+              className="d-sm-none d-block"
+              target="_blank"
+              href="https://github.com/XnonXte/math-mental-react"
+              style={{ alignSelf: "center" }}
+            >
+              Visit
+            </a>
+
             <Button
+              className="d-sm-block d-none"
               variant="primary"
               as="a"
               target="_blank"
@@ -127,7 +196,7 @@ const Projects = () => {
           <h4>
             And Several Others <span className="text-primary">/&gt;</span>
           </h4>
-          <div className="d-flex align-content-center gap-2">
+          <div className="d-flex flex-column flex-md-row gap-2">
             <a
               target="_blank"
               href="https://github.com/XnonXte/PortalGuessr-FullStack"
