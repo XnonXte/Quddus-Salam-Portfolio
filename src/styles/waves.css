@@ -1,4 +1,4 @@
-.custom-shape-divider-bottom-1695871631 {
+.custom-shape-divider-bottom-1695874593 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8,17 +8,16 @@
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1695871631 svg {
+.custom-shape-divider-bottom-1695874593 svg {
   position: relative;
   display: block;
-  width: calc(110% + 1.3px);
-  height: 59px;
+  width: calc(150% + 1.3px);
+  height: 90px;
 }
 
-.custom-shape-divider-bottom-1695871631 .shape-fill {
+.custom-shape-divider-bottom-1695874593 .shape-fill {
   fill: #3264ff;
 }
-
 .custom-shape-divider-top-1695871773 {
   position: absolute;
   top: 0;
