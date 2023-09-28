@@ -79,7 +79,12 @@ const Header = ({ background }: HeaderProps) => {
               src={faceGrayscale}
               alt="My face"
               className="img-fluid d-none d-md-block"
-              style={{ maxWidth: "200px" }}
+              style={{
+                maxWidth: "200px",
+                background: "#3274ff",
+                borderRadius: "50%",
+                border: "2px solid white",
+              }}
             />
           </div>
         </Container>
