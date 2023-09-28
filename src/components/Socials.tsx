@@ -14,9 +14,9 @@ const Socials = () => {
           </h2>
           <p>Let's connect through Twitter or Linkedin!</p>
         </div>
-        <Row className="gap-2 text-center">
+        <Row className="gap-2 text-center justify-content-center align-items-center">
           <Col>
-            <Card className="bg-light" style={{ width: "224px" }}>
+            <Card className="bg-light mx-auto" style={{ width: "224px" }}>
               {/* Twitter */}
               <Card.Body>
                 <div className="h1 mb-3">
@@ -34,8 +34,9 @@ const Socials = () => {
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
-            <Card className="bg-light" style={{ width: "224px" }}>
+            <Card className="bg-light mx-auto" style={{ width: "224px" }}>
               {/* Instagram */}
               <Card.Body>
                 <div className="h1 mb-3">
@@ -53,8 +54,9 @@ const Socials = () => {
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
-            <Card className="bg-light" style={{ width: "224px" }}>
+            <Card className="bg-light mx-auto" style={{ width: "224px" }}>
               {/* Facebook */}
               <Card.Body>
                 <div className="h1 mb-3">
@@ -72,8 +74,9 @@ const Socials = () => {
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
-            <Card className="bg-light" style={{ width: "224px" }}>
+            <Card className="bg-light mx-auto" style={{ width: "224px" }}>
               {/* Youtube */}
               <Card.Body>
                 <div className="h1 mb-3">
@@ -91,8 +94,9 @@ const Socials = () => {
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
-            <Card className="bg-light" style={{ width: "224px" }}>
+            <Card className="bg-light mx-auto" style={{ width: "224px" }}>
               {/* Linkedin */}
               <Card.Body>
                 <div className="h1 mb-3">
