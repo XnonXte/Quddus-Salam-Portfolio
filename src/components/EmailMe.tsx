@@ -32,12 +32,18 @@ const EmailMe = ({ serviceId, templateId }: EmailMeProps) => {
         if (error) console.error(error.message);
 
         alert(`An error occurred: ${error.message}`);
+      })
+      .finally(() => {
+        setFromName("");
+        setEmailAddress("");
+        setSubject("");
+        setMessage("");
       });
   }
 
   return (
     <section className="p-5 bg-dark text-light" id="email-me">
-      <Container>
+      <Container style={{ marginBottom: "42px" }}>
         <h2>
           Email Me <span className="text-primary">/&gt;</span>
         </h2>

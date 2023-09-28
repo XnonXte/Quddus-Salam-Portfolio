@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 const Projects = () => {
   return (
     <section className="bg-dark text-light p-5 pg-lg-0" id="projects">
-      <Container>
+      <Container style={{ marginTop: "42px" }}>
         <h2 className="text-center">
           <a
             target="_blank"
@@ -167,7 +167,7 @@ const Projects = () => {
         </div>
       </Container>
 
-      <div className="custom-shape-divider-top-1695871773">
+      <div className="custom-shape-divider-top-1695877053">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

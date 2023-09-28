@@ -18,7 +18,8 @@
 .custom-shape-divider-bottom-1695874593 .shape-fill {
   fill: #3264ff;
 }
-.custom-shape-divider-top-1695871773 {
+
+.custom-shape-divider-top-1695877053 {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,13 +28,13 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1695871773 svg {
+.custom-shape-divider-top-1695877053 svg {
   position: relative;
   display: block;
-  width: calc(130% + 1.3px);
-  height: 30px;
+  width: calc(110% + 1.3px);
+  height: 59px;
 }
 
-.custom-shape-divider-top-1695871773 .shape-fill {
-  fill: #3264fe;
+.custom-shape-divider-top-1695877053 .shape-fill {
+  fill: #3264ff;
 }
