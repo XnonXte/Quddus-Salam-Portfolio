@@ -68,12 +68,11 @@ const Header = ({ background }: HeaderProps) => {
               </p>
               <Button
                 variant="dark"
-                className="bg-opacity-25"
                 as="a"
                 target="_blank"
                 href="https://github.com/XnonXte"
               >
-                Check Out My GitHub
+                My GitHub <i className="bi bi-github"></i>
               </Button>
             </div>
             <img
